@@ -1,0 +1,298 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.header {
+  background-color: #9e2420;
+  color: white;
+  padding: 8px 0;
+}
+.header ul {
+  margin: 0;
+}
+.header li {
+  display: inline;
+  margin-right: 50px;
+}
+.header i {
+  font-weight: 900;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #9e2420;
+}
+.needed_space {
+  height: 20px;
+}
+.welcome_wrap {
+  padding: 50px 0;
+}
+.welcome_title {
+  color: #9e2420;
+  font-size: 33px;
+  text-align: center;
+}
+
+.welcome h1 {
+  margin: 0;
+}
+.sub_title {
+  margin: 0;
+  text-align: center;
+}
+.divider {
+  color: #9e2420;
+  text-align: center;
+}
+.welcome_para {
+  text-align: justify;
+}
+.welcome_image img {
+  background-size: cover;
+}
+.order_btn {
+  background-color: #9e2420;
+  color: white;
+  border-color: #9e2420;
+}
+.notice {
+  padding: 50px 0;
+  color: #9e2420;
+}
+.notice_title::after {
+  content: url(images/divider.svg);
+  text-align: center;
+  color: #9e2420;
+}
+.notice_info {
+  font-size: 20px;
+}
+.parallax {
+  background-image: url(images/bg.jpg);
+}
+.reservation .overlay {
+  padding: 50px 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.title h2 {
+  color: #9e2420;
+}
+.title_res {
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.title_res h2 {
+  color: #9e2420;
+}
+
+.title h2::after {
+  content: url(images/divider.svg);
+  display: block;
+}
+.title_res h2::after {
+  content: url(images/divider.svg);
+  display: block;
+}
+.rounded-pill {
+  margin-top: 20px;
+  border-radius: 50rem;
+  background-color: orange;
+  border-color: orange;
+}
+.note {
+  color: white;
+  font-size: 20px;
+}
+.note_res {
+  color: #000;
+  font-size: 20px;
+}
+.review_wrap {
+  padding: 30px 0;
+  text-align: center;
+}
+.review h2 {
+  color: #9e2420;
+}
+.review h2::after {
+  content: url(images/divicer.svg);
+  display: block;
+}
+/*footer*/
+
+.top-footer {
+  background-color: #b43f3b;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer h4 {
+  margin-bottom: 20px;
+}
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600;
+}
+.contact_footer li p {
+  display: inline;
+}
+.contact_footer li a {
+  color: white;
+}
+.top-footer ul {
+  padding: 0;
+}
+.contact_footer li span {
+  font-size: 18px;
+  margin: 0px 15px 0 0;
+  color: orange;
+  font-weight: 600;
+}
+.opening_time li time {
+  float: right;
+}
+.footer_links {
+  margin-bottom: 20px;
+}
+.footer_links a span {
+  margin-right: 20px;
+  color: rgb(216, 192, 55);
+}
+.bottom_footer {
+  padding: 20px 0;
+  background-color: #000;
+}
+
+.copy {
+  color: white;
+  margin-bottom: 16px;
+}
+.copy a {
+  color: #ff9015;
+}
+
+.reservation {
+  padding: 50px 0;
+}
+
+/*Private Dining page*/
+.private_page {
+  padding: 50px 0;
+}
+
+.semi h3,
+h5 {
+  color: #ff9015;
+}
+
+.register {
+  padding: 50px 0;
+}
+.btn_reg {
+  background-color: #b43f3b;
+  color: white;
+  border-color: #b43f3b;
+}
+.btn_reg:hover {
+  background-color: #9e2420;
+  border-color: #9e2420;
+}
+
+/*Contact Page*/
+
+.contact_page {
+  padding: 50px 0;
+}
+.contact_page h2 span {
+  display: block;
+  color: #b43f3b;
+}
+.contact_address li {
+  list-style: none;
+  text-decoration: none;
+}
+.contact_address ul {
+  padding: 0;
+}
+.contact_address li p {
+  display: inline;
+}
+.contact_address li span {
+  font-size: 20px;
+  margin: 0px 15px 0 0;
+  color: orange;
+  font-weight: 800;
+}
+.contact_address li {
+  padding: 8px 0;
+}
+.login_page {
+  padding: 50px 0;
+}
+.btn_login {
+  width: 100%;
+}
+.btn_facebook {
+  margin-top: 10px;
+  background-color: #414cdd;
+  border-color: #414cdd;
+}
+
+.btn_google {
+  background-color: #db4437;
+  border-color: #db4437;
+  margin-top: 10px;
+}
+
+.order_page {
+  padding: 50px 0;
+}
+.list-group a {
+  color: #495057;
+  text-decoration: none;
+}
+.list-item {
+  border-bottom: 1px solid #a4a7aa;
+}
+.list-group a:hover {
+  color: #ff9015;
+}
+
+.item h6 {
+  color: #b43f3b;
+}
+.item h6 a i {
+  color: #b43f3b;
+}
+.item_name {
+  margin: 0;
+}
+
+[type="button"] {
+  cursor: pointer;
+}
+
+.cart_header {
+  display: inline;
+}
+.cart_above {
+  overflow: auto;
+}
