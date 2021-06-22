@@ -296,3 +296,26 @@ h5 {
 .cart_above {
   overflow: auto;
 }
+
+ .cart_section button, .card_below button{
+background-color: #9e2420;
+border-color: #9e2420;
+}
+
+.social li{
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline;
+  list-style: none;
+}
+
+.social li a{
+  color: #f3cf7a;
+  background-color: #ff9015;
+  border-radius: 4px;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  line-height: 1.47;
+  text-align: center;
+}
